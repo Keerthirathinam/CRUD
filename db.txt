@@ -1,0 +1,3 @@
+create database crud_app;
+
+create table signup(id bigint not null primary key auto_increment,username varchar(300),password varchar(300),firstname varchar(300),lastname varchar(300),emailid varchar(300),phoneno varchar(300),status varchar(300));
